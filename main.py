@@ -1,7 +1,13 @@
 from typing import List
 
 def even_list(int_list: List[int]) -> List[int]:
-    pass
+    result = []
+
+    for num in int_list:
+        if num % 2 == 0:
+            result.append(num)
+
+    return result
 
 def sum_of_squares_of_even(even_int_list: List[int]) -> int:
     pass
